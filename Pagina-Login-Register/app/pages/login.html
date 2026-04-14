@@ -13,15 +13,15 @@
 <body>
     <main>
         <div class="form-container">
-            
             <form>
-                <h1>Iniciar Sesion</h1> 
-                <label class="form-label" for="user">Ingresar su nombre: </label>
-                <input type="text" placeholder="Jose Martinez" maxlength="50" required name="user" id="user"> 
-                <label class="form-label" for="password">Ingresar contraseña: </label>
-                <input type="password" placeholder="Contraseña" maxlength="15" required> 
-                <label class="form-label" for="Email">Ingresar Correo Electronico: </label>
-                <input type="text" placeholder="Contraseña" maxlength="50" required> 
+                <h1>Iniciar Sesion</h1>
+                <p>Ingrese sus credenciales para poder entrar al sistema.</p>
+                <label for="user" class="sr-only">Ingresar su nombre: </label>
+                <input type="text" placeholder="Jose Martinez" maxlength="50" required name="user" id="user">
+                <label for="password" class="sr-only">Ingresar contraseña: </label>
+                <input type="password" placeholder="Contraseña" maxlength="15" required>
+                <label for="Email" class="sr-only">Ingresar Correo Electronico: </label>
+                <input type="text" placeholder="Contraseña" maxlength="50" required>
                 <button type="submit">Iniciar Sesion</button>
             </form>
             <p>¿Todavia no tienes una cuenta?<a href="/register">Registrate</a></p>

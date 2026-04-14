@@ -10,10 +10,44 @@ body {
 
 .form-container {
     width: 500px;
+
+    
 }
 
 form {
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+
+/* 
+ podemos acceder a cierto elemento mediante el nombre,
+ de la etiqueta y el signo + para incluir la etiqueta 
+*/
+form+p {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+
+input,button {
+    border-radius: 4px;
+    border: unset;
+    padding: 15px 30px;
+}
+
+
+
+
+
+
+.sr-only {
+    position: absolute;
+    left: -100000000px;
+    top: auto;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
 }
