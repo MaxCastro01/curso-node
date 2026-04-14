@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!--Es importante para la conexion con js en node, usar /"nombre del archivo"-->
+    <link rel="stylesheet" href="/style.css">
+    <script src="/login.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <div class="form-container">
+            
+            <form>
+                <h1>Iniciar Sesion</h1> 
+                <label class="form-label" for="user">Ingresar su nombre: </label>
+                <input type="text" placeholder="Jose Martinez" maxlength="50" required name="user" id="user"> 
+                <label class="form-label" for="password">Ingresar contraseña: </label>
+                <input type="password" placeholder="Contraseña" maxlength="15" required> 
+                <label class="form-label" for="Email">Ingresar Correo Electronico: </label>
+                <input type="text" placeholder="Contraseña" maxlength="50" required> 
+                <button type="submit">Iniciar Sesion</button>
+            </form>
+            <p>¿Todavia no tienes una cuenta?<a href="/register">Registrate</a></p>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
