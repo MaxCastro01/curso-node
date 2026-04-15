@@ -71,5 +71,5 @@ app.get("/",(req, res) => res.sendFile(path.join(__dirname,"pages","index.html")
 
 app.get("/login", (req,res) => res.sendFile(path.join(__dirname,"pages","login.html")))
 app.get("/register",(req, res) => res.sendFile(path.join(__dirname,"pages","register.html")))
-
+app.get("/admin", (req,res) => res.sendFile(path.join(__dirname, "pages", "admin.html")))
 
