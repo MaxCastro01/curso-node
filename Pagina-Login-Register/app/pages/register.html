@@ -12,15 +12,15 @@
 
     <main>
         <div class="form-container">
-            <form>
-                <h1>Registra tu cuenta</h1>
-                <p>Ingresa tus datos para poder crear una cuenta</p>
+        <h1>Registra tu cuenta</h1>
+        <p>Ingresa tus datos para poder crear una cuenta</p>
+            <form id="register-form">
                 <label for="user" class="sr-only">Ingresar su nombre: </label>
                 <input type="text" placeholder="Jose Martinez" maxlength="50" required name="user" id="user">
-                <label for="Email" class="sr-only">Ingresar Correo Electronico: </label>
-                <input type="text" placeholder="Ingresa tu correo Electronico " maxlength="50" required>
+                <label for="Email" class="sr-only" name="email">Ingresar Correo Electronico: </label>
+                <input type="text" placeholder="Ingresa tu correo Electronico " maxlength="50" required id="email">
                 <label for="password" class="sr-only">Ingresar contraseña: </label>
-                <input type="password" placeholder="Contraseña" maxlength="15" required>
+                <input type="password" placeholder="Contraseña" maxlength="15" required name="password" id="password">
                 
                 <button type="submit">Registrarse</button>
                 <p class="error escondido">Error al registrar sus datos</p>

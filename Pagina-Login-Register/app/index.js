@@ -3,10 +3,10 @@ import path from 'path';
 import { fileURLToPath } from "url";
 
 //FIX PARA DIRNAME
-//Usamos __dirname para poder obtener la direccion de nuestro
-//archivo, en commonJS solo necesitamos el require y ya
+// Usamos __dirname para poder obtener la direccion de nuestro
+// archivo, en commonJS solo necesitamos el require y ya
 // Usando Module, necesitamos varias cosas para poder recrearlo
-//la variable de const __dirname se compone de lo siguiente
+// la variable de const __dirname se compone de lo siguiente
 // import.meta.url nos da la ruta del archivo pero en formato URL
 // fileURLToPath(import.meta.url) convertimos esa URL a una ruta del sistema
 // path.dirname obtiene la carpeta, no el archivo
